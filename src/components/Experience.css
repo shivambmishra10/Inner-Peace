@@ -1,0 +1,286 @@
+.experienceButton {
+    background-color: #5eafe5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(217, 217, 255);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    min-height: 3rem;
+    min-width: 5rem;
+}
+
+.experienceButton:hover {
+    background-color: #6ab6e8;
+    text-decoration: none;
+    color: white;
+}
+
+.feeling {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #04539a;
+}
+
+.experienceMain {
+    margin: 5rem;
+    margin-top: 0;
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: #91a5ff15;
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+}
+
+.errorMessage {
+    text-align: center;
+}
+
+.experienceTitle {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: #04539a;
+}
+
+.experiencingAndNotesWrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #04539a;
+}
+
+.experiencing {
+    justify-self: auto;
+    margin-right: 2rem;
+    min-width: 70%;
+    min-height: 100%;
+    background-color: rgba(145, 165, 255, 0.25);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+    border-radius: 16px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.experiencingSmallTitle {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    overflow-wrap: break-word;
+}
+
+.experiencingSmallTitleRight {
+    font-size: 1.3rem;
+    align-self: end;
+}
+
+.symptomsChecklist {
+    display: grid;
+    grid-template-columns: 80% auto;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+    border-radius: 16px;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.symptomsChecklistChecked {
+    display: grid;
+    grid-template-columns: 80% auto;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.65);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+    border-radius: 16px;
+    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+.notes {
+    justify-self: auto;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    min-width: 70%;
+    min-height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(145, 165, 255, 0.25);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+}
+
+.experienceSubmitWrapper {
+    margin-bottom: 0;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.symptoms {
+    display: flex;
+    flex-flow: column;
+    /*max-height: 12rem;*/
+    min-height: 70%;
+    background-color: #f1f6f6;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px darkgrey;
+    overflow: auto;
+    margin-top: 2rem;
+    color: #04539a;
+    border: none;
+    outline: none;
+}
+
+.experienceImage {
+    width: 4rem;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    padding: 0.5rem;
+    align-self: start;
+}
+
+.notesTitleWrapper {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.checkbox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #eeeeee;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    justify-self: end;
+}
+
+label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: rgba(4, 83, 154, 0.7);
+    /*border: solid white 1px;*/
+}
+
+@media only screen and (max-width: 1200px) {
+    .notes {
+        justify-self: auto;
+    }
+
+    .symptomsChecklist {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .symptomsChecklistChecked {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .experienceHeader {
+        grid-template-columns: auto auto;
+    }
+
+    .experiencingAndNotesWrapper {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .experiencing {
+        justify-self: center;
+        padding: 1.5rem;
+        padding-bottom: 2rem;
+        margin: 1rem;
+        margin-bottom: 3rem;
+        min-width: 100%;
+        min-height: auto;
+    }
+
+    .notes {
+        justify-self: center;
+        padding: 1.5rem;
+        padding-bottom: 2rem;
+        margin: 1rem;
+        min-width: 100%;
+        min-height: 30rem;
+    }
+
+    .experienceHeader {
+        justify-content: space-between;
+    }
+
+    .experienceTitle {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .experienceMain {
+        margin: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .experienceHeader {
+        grid-template-columns: auto;
+    }
+
+    .experienceMain {
+        margin: 0;
+    }
+
+    .symptomsChecklist {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .symptomsChecklistChecked {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .feeling {
+        margin-bottom: 1rem;
+    }
+
+    .experienceSubmitWrapper {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .experienceMain {
+        padding: 0.7rem;
+    }
+
+    .experiencingSmallTitle {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

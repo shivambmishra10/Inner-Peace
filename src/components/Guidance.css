@@ -1,0 +1,331 @@
+
+body {
+  overflow: auto;
+}
+
+.guidance{
+  height: auto;
+  width: auto;
+}
+
+.guidance, .grid-left1, .grid-left2, .grid-left3, .grid-right1, .grid-right2, .grid-right3  {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #91a5ff15;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+}
+
+.guidance-buttons{
+  margin: 10px;
+}
+
+.guidance-button{
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.guidance-content {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1.5fr;
+  grid-template-areas: 
+  "grid-left1   tree   grid-right1"
+  "grid-left2   tree   grid-right2"
+  "grid-left3   tree   grid-right3" ;
+}
+
+.icon-guidance {
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+  float: none;
+  height: 75px;
+  width: 75px;
+  margin: 5px;
+}
+
+.grid-left1, .grid-left2, .grid-left3, .grid-right1, .grid-right2, .grid-right3 {
+   margin: 5px;
+}
+
+.tree {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display: flex;
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+    height: auto;
+    padding: 2em;
+    @media screen and (min-width: 500px) {
+      flex-direction: row;
+    }
+}
+  
+#animation {
+    width: 100%;
+    height: 100%;
+    margin: 2em auto 0;
+}
+  
+header {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1em 0.5em 2em;
+}
+  
+.button-help, .button-breathing, .button-grounding  {
+  background-color: #5eafe5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  min-height: 3rem;
+  min-width: 5rem;
+  box-shadow: 5px 5px 5px rgb(217, 217, 255);
+}
+
+.button-help:hover, .button-breathing:hover, .button-grounding:hover, .button-modals:hover  {
+  background-color: #6ab6e8;
+  text-decoration: none;
+  color: white;
+}
+
+.button-modals {
+  background-color: #5eafe5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin: 1rem;
+  min-height: 3rem;
+  min-width: 5rem;
+  box-shadow: 5px 5px 5px rgb(217, 217, 255);
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 1990px) {
+  .icon-guidance {
+      height: 70px;
+      width: 70px;
+  }
+  .button-modals {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1840px) {
+  .icon-guidance {
+      height: 70px;
+      width: 70px;
+  }
+  .button-modals {
+    font-size: 14px;
+  }
+  .text-guidance{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1690px) {
+  .guidance-content {
+    grid-template-columns: 0.4fr 0.5fr 0.4fr;
+  }
+}
+
+
+@media only screen and (max-width: 1500px) {
+  .guidance-content {
+    grid-template-columns: 0.4fr 0.4fr 0.4fr;
+  }
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .guidance-content {
+    grid-template-columns: 0.4fr 0.3fr 0.4fr;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .grid-left1, .grid-left2, .grid-left3, .grid-right1, .grid-right2, .grid-right3 {
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .button-modals {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .icon-guidance {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .icon-guidance {
+    float: none;
+    height: 75px;
+    width: 75px;
+  }
+  .guidance-content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .guidance-content {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr;
+    grid-template-areas:
+    "tree        tree"
+    "grid-left1  grid-right1"
+    "grid-left2  grid-right2"
+    "grid-left3  grid-right3" ;
+
+  }
+
+  .tree {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    max-width: 300px;
+    }
+
+    .button-modals {
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    }
+
+    .guidance-content {
+      align-items: center;
+      text-align: center;
+    }
+
+    .grid-left1, .grid-left2, .grid-left3, .grid-right1, .grid-right2, .grid-right3 {
+      display:flex;
+      flex-flow:column;
+      justify-content: center;
+      align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 774px) {
+  .guidance-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "tree"
+    "grid-left1"
+    "grid-right1"
+    "grid-left2"  
+    "grid-right2"
+    "grid-left3"
+    "grid-right3" ;
+  }
+  .tree {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .button-help, .button-breathing, .button-grounding  {
+    background-color: #5eafe5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(217, 217, 255);
+    font-size: 15px;
+    min-width: 20px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+  .guidance {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+  }
+  .grid-left1, .grid-left2, .grid-left3, .grid-right1, .grid-right2, .grid-right3 {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .button-help, .button-breathing, .button-grounding  {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5eafe5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(217, 217, 255);
+    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 311px) {
+  .guidance  {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+  .button-help, .button-breathing, .button-grounding  {
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    color: #04539a;
+}
+.nameTitle{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.nameSmallTitle{
+    font-size: 1.5rem;
+}
+.nameBigTitle{
+    font-size: 2.5rem;
+}
+.gif {
+    width: 14rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgb(217, 217, 255);
+    margin: 3rem;
+}
+.gifWrapper{
+    display: flex;
+    justify-content: center;
+}
+.nameInside{
+    height : calc(100vh - 15vh);
+}
+.input-name, .label {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #04539a;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+.input-name{
+    background-color: rgba(145, 165, 255, 0.23);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+    border-radius: 10px;
+}
+.input-name:focus{
+    background-color: rgba(255, 255, 255, 0.57);
+    outline: solid rgba(4, 83, 154, 0.03) 2px;
+    box-shadow: 5px 5px 10px rgba(95, 159, 243, 0.19);
+
+}
+.button-confirm {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #5eafe5;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(217, 217, 255);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    min-height: 3rem;
+    min-width: 5rem;
+}
+
+.button-confirm:hover {
+    background-color: #6ab6e8;
+    text-decoration: none;
+    color: white;
+}
+form{
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/*!* responsiveness *!*/
+
+@media only screen and (max-width: 700px) {
+    .gif {
+        width: 12rem;
+    }
+    .nameSmallTitle {
+        font-size: 1rem;
+    }
+
+    .nameBigTitle {
+        font-size: 2rem;
+    }
+
+    .input-name, .label {
+        font-size: 1rem;
+    }
+
+    .button-confirm {
+        font-size: 1rem;
+    }
+    form {
+        margin-top: 2.5rem;
+    }
+}
+
+@media only screen and (max-height: 750px) {
+    form {
+        margin-top: 1rem;
+    }
+}

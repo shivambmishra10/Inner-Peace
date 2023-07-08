@@ -1,0 +1,111 @@
+.entriesMain {
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: #91a5ff15;
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+}
+
+.entriesTitle {
+    text-align: center;
+    margin: 2rem;
+    color: #04539a;
+}
+
+.entriesMain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.entryImage {
+    width: 10vw;
+    justify-self: center;
+    align-self: center;
+}
+
+.entryImgWrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#entriesCarouselWrapper {
+    margin-bottom: 3rem;
+}
+
+.previousEntries {
+    font-size: 1.2em;
+    color: #04539a;
+}
+
+.entriesSymptoms {
+    background-color: #f1f6f6;
+    border-radius: 16px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 10px darkgrey;
+    overflow: auto;
+    font-size: 1rem;
+}
+
+/* p{
+    font-size: 1rem;
+} */
+
+.entriesCarouselTitle {
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+.slider {
+    margin-bottom: 3rem;
+}
+
+.entriesNotes {
+    margin: 1rem;
+    padding: 2rem;
+    min-width: 70%;
+    min-height: 15rem;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(145, 165, 255, 0.25);
+    box-shadow: 5px 5px 10px rgba(100, 167, 255, 0.192);
+}
+
+@media only screen and (max-width: 900px) {
+    .entryImage {
+        width: 11vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .button-guidance, .button-help, .button-grounding {
+        min-width: 20px;
+    }
+
+    .entryImage {
+        width: 12vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .entriesNotes {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .entriesMain {
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .entryImage {
+        width: 20vw;
+    }
+}

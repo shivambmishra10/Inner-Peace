@@ -1,0 +1,269 @@
+.helps {
+    justify-content: center;
+    /*align-items: center;*/
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+  "near        asking";
+}
+
+.help-header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-entries, .button-breathing, .button-grounding {
+    background-color: #5eafe5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 3rem;
+    min-width: 5rem;
+    box-shadow: 5px 5px 5px rgb(217, 217, 255);
+}
+
+.button-entries:hover, .button-breathing:hover, .button-grounding:hover {
+    background-color: #6ab6e8;
+    text-decoration: none;
+    color: white;
+}
+
+.near {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.asking {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.asking, .near, .speak, .help, .heart {
+    margin: 15px;
+    background-color: #91a5ff15;
+    padding: 0.5rem;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.asking, .near {
+    padding: 2rem;
+    /*height: 770px; */
+    /*width: 850px;*/
+}
+
+.asking {
+    display: grid;
+    grid-template-rows: 6% 94%;
+}
+
+iframe {
+    /*width: 700px;*/
+    /*height: 520px;*/
+    min-height: 100vh;
+    border-radius: 4%;
+    box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+    border: none;
+    align-self: center;
+}
+
+.text-help {
+    font-size: 20px;
+}
+
+.map-psychologists {
+    margin-top: 1rem;
+}
+
+.icon-help {
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+    height: 70px;
+    width: 70px;
+}
+
+.icon-help:hover, .icon-find:hover {
+    transform: scale(1.2);
+}
+
+.ask {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+.askWrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: space-around;
+}
+
+.icon-find {
+    height: 40px;
+    /*float: right;*/
+    /*margin: 50px;*/
+}
+
+.text {
+    margin: 0;
+}
+
+.speak, .help, .heart {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-items: center;
+    row-gap: 1.5em;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+/* responsiveness */
+
+@media only screen and (min-width: 1800px) {
+    iframe {
+        width: 700px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    iframe {
+        width: 700px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    iframe {
+        width: 600px;
+        height: 450px;
+    }
+
+    .text-help {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    iframe {
+        width: 500px;
+        height: 450px;
+    }
+
+    .text-help {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    iframe {
+        width: 400px;
+        height: 450px;
+    }
+
+    .text-help {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    iframe {
+        min-height: 80vh;
+        min-width: 60vw;
+    }
+
+    .helps {
+        /*align-items: center;*/
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .near {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .asking {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: fit-content;
+
+    }
+
+    .map-psychologists {
+        min-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .button-breathing, .button-grounding, .button-entries {
+        min-width: 40px;
+    }
+
+    iframe {
+        min-height: 80vh;
+        min-width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ask {
+        font-size: 1.4rem;
+        margin: 2rem;
+    }
+
+    iframe {
+        min-height: 60vh;
+        min-width: 50vw;
+    }
+
+    .map-psychologists {
+        min-width: 50%;
+    }
+
+    .asking {
+        height: fit-content;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    iframe {
+        min-height: 50vh;
+        min-width: 30vw;
+    }
+
+    .map-psychologists {
+        min-width: auto;
+        margin: 0.5rem;
+    }
+
+    .asking {
+        height: fit-content;
+        display: inline;
+        padding: 0.5rem;
+    }
+}

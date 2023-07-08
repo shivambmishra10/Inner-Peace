@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "Date": "Thursday 14-10-2021",
+    "Feeling": "I'm feeling ok.",
+    "Experiencing": "Nausea",
+    "Notes": "Feeling ok today. Just experiencing some nausea."
+  },
+  {
+    "id": "2",
+    "Date": "Saturday 09-10-2021",
+    "Feeling": "I feel really bad.",
+    "Experiencing": "Heart palpitations",
+    "Notes": "Not feeling very well."
+  },
+  {
+    "id": "3",
+    "Date": "Tuesday 05-10-2021",
+    "Feeling": "I'm feeling good.",
+    "Experiencing": "",
+    "Notes": "Feeling quite ok today. No complaints."
+  },
+  {
+    "id": "4",
+    "Date": "Thursday 30-09-2021",
+    "Feeling": "I'm feeling great!",
+    "Experiencing": "",
+    "Notes": "Feeling great. No complaints."
+  },
+  {
+    "id": "5",
+    "Date": "Saturday 25-09-2021",
+    "Feeling": "I'm feeling ok.",
+    "Experiencing": "Nausea",
+    "Notes": "Feeling alright."
+  }
+  ,
+  {
+    "id": "6",
+    "RelaxText1" : "Taking a break may mean being very active. It may mean not doing very much at all.",
+    "RelaxText2" : "Take a deep breath… and relax. Try reading a book, yoga or meditation, or just putting your feet up.",
+    "RelaxText3" : "Listen to your body. If you’re really tired, give yourself time to sleep.",
+    "RelaxText4" : "Without good sleep, our mental health suffers and our concentration goes downhill.",
+    "RelaxText5" : "Sometimes the world can wait."
+  }
+  ,
+  {
+    "id": "7",
+    "TalkText1" : "If it feels awkward at first, give it time.",
+    "TalkText2" : "Make talking about your feelings something that you do.",
+    "TalkText3" : "Talking about your feelings isn’t a sign of weakness.",
+    "TalkText4" : "It’s part of taking charge of your wellbeing and doing what you can to stay healthy.",
+    "TalkText5" : "Talking can be a way to cope with a problem you’ve been carrying around in your head for a while.",
+    "TalkText6" : "Just being listened to can help you feel supported and less alone.",
+    "TalkText7" : "And it works both ways. If you open up, it might encourage others to do the same."
+  }
+  ,
+  {
+    "id": "8",
+    "AcceptText1" : "We’re all different.",
+    "AcceptText2" : "It’s much healthier to accept that you’re unique than to wish you were more like someone else",
+    "AcceptText3" : "Feeling good about yourself boosts your confidence to learn new skills, visit new places and make new friends.",
+    "AcceptText4" : "Good self-esteem helps you cope when life takes a difficult turn."
+  }
+  ,
+  {
+    "id": "9",
+    "ExerciseText1" : "Experts believe exercise releases chemicals in your brain that make you feel good. ",
+    "ExerciseText2" : "Regular exercise can boost your self-esteem and help you concentrate, sleep and feel better.",
+    "ExerciseText3" : "Exercising doesn’t just mean doing sport or going to the gym.",
+    "ExerciseText4" : "Walks in the park, gardening or housework can also keep you active.",
+    "ExerciseText5" : "Experts say most people should do about 30 minutes’ exercise at least five days a week.",
+    "ExerciseText6" : "Try to make physical activity that you enjoy a part of your day.",
+    "ExerciseText7" : "Helps you feel good and maintain your health."
+  }
+  ,
+  {
+    "id": "10",
+    "FoodText1" : "Strong links between what we eat and how we feel.",
+    "FoodText2" : "Eat at least three meals each day and drink plenty of water.",
+    "FoodText3" : "Try to limit how many high-caffeine or sugary drinks you have, and avoid too much alcohol.",
+    "FoodText4" : "But food can also have a long-lasting effect on your mental health.",
+    "FoodText5" : "Your brain needs a mix of nutrients to stay healthy and function well, just like the other organs in your body."
+  }
+  ,
+  {
+    "id": "11",
+    "HelpText1" : "Don't be worried or afraid to talk to a physician or therapist",
+    "HelpText2" : "None of us are superhuman. We all sometimes get tired or overwhelmed by how we feel or when things go wrong.",
+    "HelpText3" : "If things are getting too much for you and you feel you can’t cope, ask for help."
+  }
+]
