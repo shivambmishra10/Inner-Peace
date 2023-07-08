@@ -1,11 +1,31 @@
-# :droplet: Inner Peace :droplet: - A Wellness Web App
+# Inner Peace - A Wellness Web App
 
-:seedling: Deployed to netlify. You can take a look here: https://inner-peace.netlify.app/
+# Inner Peace
 
-:seedling: Inner Peace is a group project by Jonathan and Tanja, two junior web developers in the making. We used React and CSS, and maaany other useful packages (https://mui.com/ was one of them). Some of the hooks we used for the first time are useContext and useHistory. UseContext proved to be extremely useful and our colleague, Dennis wrote an insightful article about it, which you can find here https://dev.to/dennisvn/react-tsx-passing-props-with-usecontext-beginner-guide-part-12-53g1
+Inner Peace is a wellness web app developed using React, CSS, and various useful packages. It aims to provide users with a platform to explore different aspects of well-being and find inner peace. The app offers features like breathing exercises, guidance, journaling entries, and more.
 
-:seedling: The aspect we're most proud of is the planning. Every week was carefully planed using Todoist (https://todoist.com) with concrete daily and weekly goals. We had meetings every day, some online, and two days a week in real life. We planned objectives around those two days sometimes, leaving them open for the tasks we had to do together, like creating the JSON file and figuring out how to pass props and use useContext. Jonathan was in charge of the Breathing, Guidance and Help page, as well as the intro pages. Tanja worked on the Entries, Experience, Feeling and Grounding page. However, we also helped each other whenever a problem occurred on any of the pages. 
+## Deployment
 
+The Inner Peace app is deployed on Netlify. You can access it [here](https://inner-peace.netlify.app/).
 
+## Features and Technologies
+
+- Built with React and CSS, leveraging packages such as [Material-UI](https://mui.com/) for enhanced UI components.
+- Utilized React hooks like `useContext` and `useHistory` to manage state and navigation.
+- Planning and goal setting were integral parts of the development process. Weekly goals and tasks were organized using [Todoist](https://todoist.com) to ensure a structured workflow.
+
+## Contributions and Collaboration
+
+Inner Peace is the result of collaborative efforts by a team of web developers. We value the power of teamwork and supporting each other throughout the development process.
+
+## Project Highlights
+
+One aspect we are particularly proud of is the thorough planning process. Each week, we carefully set goals and tasks, which were tracked using Todoist. Regular meetings were conducted to discuss progress and resolve challenges. This approach helped us stay organized and focused.
+
+## Learn More
+
+To gain insights into the implementation of certain features in Inner Peace, we have written a detailed article on using `useContext` in React. You can find the article [here](https://dev.to/dennisvn/react-tsx-passing-props-with-usecontext-beginner-guide-part-12-53g1).
+
+Feel free to explore the Inner Peace web app and discover new ways to find tranquility and well-being.
 
 
